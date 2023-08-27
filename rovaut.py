@@ -1,4 +1,4 @@
-print("Hello welcome to Rob's Café")
+print("Hello welcome to Kenny Payne's Café")
 
 name = input("Whats your name?\n ")
 
