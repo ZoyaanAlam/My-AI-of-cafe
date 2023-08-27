@@ -1,0 +1,61 @@
+#Mathematical Operations Conductor
+
+print("Hello, im Kenny Payne your ordinary chat bot \n ")
+
+print("What mathematical operations would you like to perform, that i may help you with \n ")
+
+a = input("Our list contains basic mathematical operations (add, subtract, multply divide, exponents), (only 2 digits, BODMAS coming soon),and only these right now because i will divide this project in parts \n ")
+
+#Calculator (no BODMAS)
+
+if a == "Basic Mathematical Operations":
+    b = input("which operation do you want to perform \n ")
+    
+        #Addition
+    
+    if b == "Addition":
+        c = float(input("please type in your first number \n "))
+        d = float(input("please type in your second number \n "))
+        e = c + d
+        print(e)
+        print("here is your answer")
+        
+        #Subtraction
+        
+    elif b == "Subtraction":
+        c = float(input("please type in your first number \n "))
+        d = float(input("please type in your second number \n "))
+        e = c - d
+        print(e)
+        print("here is your answer")
+        
+        #Multiplication
+        
+    elif b == "Multiplication":
+        c = float(input("please type in your first number \n "))
+        d = float(input("please type in your second number \n "))
+        e = c * d
+        print(e)
+        print("here is your answer")
+        
+        #Division
+        
+    elif b == "Division":
+        c = float(input("please type in your first number \n "))
+        d = float(input("please type in your second number \n "))
+        e = c / d
+        print(e)
+        print("here is your answer")
+        
+        #Exponents
+        
+    elif b == "Exponents":
+        c = float(input("please type in your first number \n "))
+        d = float(input("please type in the number you want to power the first number with \n "))
+        e = c ** d
+        print(e)
+        print("here is your answer")
+
+exit()
+
+#The End for now
